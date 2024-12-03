@@ -25,6 +25,7 @@
 
     <modules>
         <module>day1</module>
+        <module>day2</module>
         <module>utils</module>
     </modules>
 
