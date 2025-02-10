@@ -18,5 +18,9 @@ public class CommandLineAppStartupRunner implements CommandLineRunner {
         int sumOfCorrectUpdatesFromFile = printingService.getSumOfCorrectUpdatesFromFile(fileName);
         System.out.println("Sum of correct updates from file: " + sumOfCorrectUpdatesFromFile);
 
+        // Part 2
+        int sumOfCorrectedIncorrectUpdatesFromFile = printingService.getSumOfIncorrectUpdatesFromFile(fileName);
+        System.out.println("Sum of corrected incorrect updates from file: " + sumOfCorrectedIncorrectUpdatesFromFile);
+
     }
 }
